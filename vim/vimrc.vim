@@ -24,10 +24,12 @@ let g:coc_global_extensions = [
             \ 'coc-snippets',
             \ 'coc-tsserver',
             \ 'coc-eslint',
-            \ 'coc-json',
             \ 'coc-tslint',
-            \ 'coc-ember',
+            \ 'coc-json',
             \ ]
+" \ 'coc-pretter',
+
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " use tab for trigger completion with characters ahead and navigate.
 " use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
@@ -38,8 +40,8 @@ inoremap <silent><expr> <TAB>
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 " Use `[g` and `]g` to navigate diagnostics
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
+nmap <silent> <leader>[ <Plug>(coc-diagnostic-prev)
+nmap <silent> <leader>] <Plug>(coc-diagnostic-next)
 
 function! s:check_back_space() abort
     let col = col('.') - 1
