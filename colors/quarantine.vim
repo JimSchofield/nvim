@@ -126,6 +126,10 @@ call s:Highlight('jsxH1', s:white, '', '')
 call s:Highlight('jsxBraces', s:purple_100, '', '')
 call s:Highlight('jsxEqual', s:purple_100, '', '')
 
+" Added to help with treesitter
+call s:Highlight('TSPunctBracket', s:purple_100, '', '')
+call s:Highlight('TSTagDelimiter', s:grey_200, '', '')
+
 " TODO Create CSS
 
 " System

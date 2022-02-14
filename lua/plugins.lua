@@ -19,4 +19,11 @@ return require('packer').startup(function()
   use 'tpope/vim-repeat'
   use 'wellle/targets.vim'
   use 'gerw/vim-HiLinkTrace'
+  use 'nvim-treesitter/playground'
+
+  -- Make fern pretty
+  use 'lambdalisue/fern.vim'
+  use 'lambdalisue/nerdfont.vim'
+  use 'lambdalisue/fern-renderer-nerdfont.vim'
+  use 'lambdalisue/fern-hijack.vim'
 end)
