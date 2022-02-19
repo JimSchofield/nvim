@@ -20,6 +20,7 @@ return require('packer').startup(function()
   use 'wellle/targets.vim'
   use 'gerw/vim-HiLinkTrace'
   use 'nvim-treesitter/playground'
+  use { 'prettier/vim-prettier',  run = "yarn install --frozen-lockfile --production", branch = "release/0.x"}
 
   -- Make fern pretty
   use 'lambdalisue/fern.vim'

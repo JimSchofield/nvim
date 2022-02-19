@@ -1,4 +1,6 @@
+" fern
 let g:fern#renderer = "nerdfont"
+let g:fern#default_hidden = 1
 
 " Moving lines with ^-j/k
 nnoremap <C-j> :m .+1<CR>==
