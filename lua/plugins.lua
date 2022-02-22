@@ -23,8 +23,13 @@ return require('packer').startup(function()
   use { 'prettier/vim-prettier',  run = "yarn install --frozen-lockfile --production", branch = "release/0.x"}
 
   -- Make fern pretty
-  use 'lambdalisue/fern.vim'
-  use 'lambdalisue/nerdfont.vim'
-  use 'lambdalisue/fern-renderer-nerdfont.vim'
-  use 'lambdalisue/fern-hijack.vim'
+  -- use 'lambdalisue/fern.vim'
+  -- use 'lambdalisue/nerdfont.vim'
+  -- use 'lambdalisue/fern-renderer-nerdfont.vim'
+  -- use 'lambdalisue/fern-hijack.vim'
+
+  -- Nerdtree
+  use 'preservim/nerdtree'
+  -- use 'ryanoasis/vim-devicons'
+  -- use 'her/synicons.vim'
 end)
