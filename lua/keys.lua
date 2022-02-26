@@ -47,7 +47,8 @@ map({ 'n', '<leader>gb', ':Git blame<CR>' })
 -- CoC
 map({ 'n', '<leader>gd', ':call CocAction("jumpDefinition", "tab drop")<CR>'})
 map({ 'n', '<leader>`', ':CocAction<CR>' })
-map({ 'n', '<leader>sr', '<Plug>(coc-rename)' })
+-- For some reason, <Plug>(coc-rename) was not working
+map({ 'n', '<leader>sr', ':call CocActionAsync("rename")<CR>' })
 
 -- Clear search
 map({ 'n', '<leader>cs', ':noh<CR>' })
