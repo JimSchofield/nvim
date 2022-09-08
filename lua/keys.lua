@@ -27,29 +27,19 @@ map({'n', '<leader>rg', ':Rg<CR>' })
 map({'n', '<leader>h', ':History<CR>' })
 map({'n', '<leader>p', ':Prettier<CR>' })
 map({'n', '<leader>e', ':Explore<CR>' })
+map({'n', '<leader>t', ':Telescope<CR>' })
 
 -- opening file drawers
--- map({'n', '<leader>n', ':Vexplore<CR>' })
--- map({'n', '<leader>n', ':Fern . -drawer -reveal=%<CR>' })
 map({'n', '<leader>n', ':NERDTreeFind<CR>' })
 
 -- show buffer path
 map({'n', '<leader>path', ':echo expand("%:p")<CR>' })
-
--- Snippets
-map({'n', '<leader>snip', ':e ~/.config/coc/ultisnips/<CR>' })
 
 -- Fugitive
 map({ 'n', '<leader>gs', ':Git<CR>' })
 map({ 'n', '<leader>gc', ':Git commit<CR>' })
 map({ 'n', '<leader>gca', ':Git commit --amend<CR>' })
 map({ 'n', '<leader>gb', ':Git blame<CR>' })
-
--- CoC
-map({ 'n', '<leader>gd', ':call CocAction("jumpDefinition", "tab drop")<CR>'})
-map({ 'n', '<leader>`', ':CocAction<CR>' })
--- For some reason, <Plug>(coc-rename) was not working
-map({ 'n', '<leader>sr', ':call CocActionAsync("rename")<CR>' })
 
 -- Clear search
 map({ 'n', '<leader>cs', ':noh<CR>' })

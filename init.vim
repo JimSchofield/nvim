@@ -9,6 +9,7 @@ lua require('plugins')
 lua require('lsp')
 lua require('completion')
 lua require('keys')
+lua require('crowdstrike')
 lua require('treesitter')
 lua require('config')
 
