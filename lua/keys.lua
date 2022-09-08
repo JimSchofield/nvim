@@ -26,6 +26,7 @@ map({'n', '<leader>f', ':Files<CR>' })
 map({'n', '<leader>rg', ':Rg<CR>' })
 map({'n', '<leader>h', ':History<CR>' })
 map({'n', '<leader>p', ':Prettier<CR>' })
+map({'n', '<leader>e', ':Explore<CR>' })
 
 -- opening file drawers
 -- map({'n', '<leader>n', ':Vexplore<CR>' })

@@ -6,6 +6,7 @@ require'nvim-treesitter.configs'.setup {
     'elixir',
     'elm',
     'glimmer',
+    'haskell',
     'html',
     'javascript',
     'jsdoc',
