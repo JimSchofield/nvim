@@ -32,7 +32,6 @@ return require('packer').startup(function(use)
   use 'tpope/vim-commentary'
   use 'mattn/emmet-vim'
   use 'tpope/vim-fugitive'
-  use 'Yggdroot/indentLine'
   use 'mhinz/vim-signify'
   use 'psliwka/vim-smoothie'
   use 'tpope/vim-surround'
