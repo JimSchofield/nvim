@@ -71,6 +71,7 @@ local servers = {
   "eslint",
   "glint",
   "graphql",
+  "jsonls",
   "html",
   "cssls",
   "tailwindcss",

@@ -7,3 +7,5 @@ vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
 set list listchars=tab:\❘\ ,multispace:\|\ ,trail:×,extends:»,nbsp:×
+
+syntax on
