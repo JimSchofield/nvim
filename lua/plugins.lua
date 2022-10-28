@@ -30,7 +30,12 @@ return require('packer').startup(function(use)
   use 'jiangmiao/auto-pairs'
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   use 'tpope/vim-commentary'
-  use 'mattn/emmet-vim'
+  use {
+    "mattn/emmet-vim",
+    config = function ()
+      vim.g["user_emmet_leader_key"] = "<C-e>"
+    end
+  }
   use 'tpope/vim-fugitive'
   use 'mhinz/vim-signify'
   use 'psliwka/vim-smoothie'
